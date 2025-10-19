@@ -50,7 +50,7 @@ The architecture includes the following components:
 - Built **three Fabric workspaces** for structured data management.
 - Each workspace connected to the same Fabric Capacity for centralized control.
 
-![ETL Architecture](Screenshots/workspase.png)
+![ETL Architecture](Screenshots/warkspase.png)
 
 ---
 
