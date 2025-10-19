@@ -60,11 +60,9 @@ The architecture includes the following components:
   - **Load** it into the Lakehouse.
   - **Transform** and validate the data using Notebooks.
 
-![ETL Architecture](screenshots/architecture.jpg)
-
 - Created multiple pipeline runs to move data incrementally and verify process completion.
 
-![ETL Architecture](screenshots/architecture.jpg)
+![ETL Architecture](Screenshots/pipeline.png)
 
 ---
 
