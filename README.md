@@ -34,7 +34,7 @@ The architecture includes the following components:
 - Enabled **Fabric Capacity** within the resource group to allocate compute resources.
 - Connected Fabric workspaces to this capacity for seamless performance.
 
-![ETL Architecture](Screenshots/container.png)
+![ETL Architecture](Screenshots/fabric.png)
 
 ---
 
@@ -42,7 +42,7 @@ The architecture includes the following components:
 - Created a **Blob Storage account** and a dedicated **container** to upload raw data.
 - Uploaded CSV datasets into the container for further processing.
 
-![ETL Architecture](screenshots/architecture.jpg)
+![ETL Architecture](Screenshots/container.png)
 
 ---
 
