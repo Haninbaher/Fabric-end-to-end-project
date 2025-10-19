@@ -26,7 +26,7 @@ The architecture includes the following components:
 ### 1️⃣ Create Resource Group
 - Created a new **Azure Resource Group** to hold all Fabric and storage resources.
 
-<!-- Add image here (Resource Group Screenshot) -->
+![ETL Architecture](screenshots/resoursegroup.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ The architecture includes the following components:
 - Enabled **Fabric Capacity** within the resource group to allocate compute resources.
 - Connected Fabric workspaces to this capacity for seamless performance.
 
-<!-- Add image here (Fabric Capacity Screenshot) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ The architecture includes the following components:
 - Created a **Blob Storage account** and a dedicated **container** to upload raw data.
 - Uploaded CSV datasets into the container for further processing.
 
-<!-- Add image here (Blob Storage & Container Screenshot) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 ---
 
@@ -50,7 +50,7 @@ The architecture includes the following components:
 - Built **three Fabric workspaces** for structured data management.
 - Each workspace connected to the same Fabric Capacity for centralized control.
 
-<!-- Add image here (Workspaces Screenshot) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 ---
 
@@ -60,11 +60,11 @@ The architecture includes the following components:
   - **Load** it into the Lakehouse.
   - **Transform** and validate the data using Notebooks.
 
-<!-- Add image here (Pipeline Screenshot 1) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 - Created multiple pipeline runs to move data incrementally and verify process completion.
 
-<!-- Add image here (Pipeline Screenshot 2) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ The architecture includes the following components:
 - Built a **Fabric Lakehouse** to store the cleaned and structured data.
 - Verified the successful data load using Fabric’s integrated viewer.
 
-<!-- Add image here (Lakehouse Screenshot) -->
+![ETL Architecture](screenshots/architecture.jpg)
 
 ---
 
