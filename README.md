@@ -26,7 +26,7 @@ The architecture includes the following components:
 ### 1️⃣ Create Resource Group
 - Created a new **Azure Resource Group** to hold all Fabric and storage resources.
 
-![ETL Architecture](Screenshots/resoursegroup.png)
+![ETL Architecture](Screenshots/reasoursegroup.png)
 
 ---
 
