@@ -66,11 +66,35 @@ The architecture includes the following components:
 
 ---
 
-### 6️⃣ Create Lakehouse and Load Data
-- Built a **Fabric Lakehouse** to store the cleaned and structured data.
-- Verified the successful data load using Fabric’s integrated viewer.
+## 6️⃣ 🪶 Medallion Architecture Breakdown
 
-![ETL Architecture](screenshots/architecture.jpg)
+### 🟤 Bronze Layer
+The **Bronze layer** stores the **raw data** ingested directly from Azure Blob Storage.  
+- Data remains unprocessed to preserve its original form.  
+- Used mainly for auditing and reprocessing when needed.  
+- Acts as the foundation for the Silver layer transformations.
+
+<!-- Add image here (Bronze Screenshot) -->
+
+---
+
+### ⚪ Silver Layer
+The **Silver layer** contains **cleaned, validated, and standardized data**.  
+- Applied transformations using Fabric Notebooks and Pipelines.  
+- Removed duplicates, handled missing values, and standardized formats.  
+- Acts as the trusted source for analytics and Gold-level aggregation.
+
+<!-- Add image here (Silver Screenshot) -->
+
+---
+
+### 🟡 Gold Layer
+The **Gold layer** holds **curated and aggregated datasets** ready for reporting.  
+- Data is modeled for business KPIs and Power BI visualization.  
+- Includes summary tables and calculated fields.  
+- Optimized for performance and direct Power BI connection.
+
+<!-- Add image here (Gold Screenshot) -->
 
 ---
 
