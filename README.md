@@ -76,6 +76,7 @@ The **Bronze layer** stores the **raw data** ingested directly from Azure Blob S
 
 ![ETL Architecture](Screenshots/Bronze.png)
 
+### load data from blob storage
 ![ETL Architecture](Screenshots/load-bronze.png)
 
 ---
