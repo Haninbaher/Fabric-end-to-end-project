@@ -74,9 +74,9 @@ The **Bronze layer** stores the **raw data** ingested directly from Azure Blob S
 - Used mainly for auditing and reprocessing when needed.  
 - Acts as the foundation for the Silver layer transformations.
 
-![ETL Architecture](Screenshots/bronze.png)
+![ETL Architecture](Screenshots/Bronze.png)
 
-![ETL Architecture](Screenshots/load bronze.png)
+![ETL Architecture](Screenshots/load-bronze.png)
 
 ---
 
