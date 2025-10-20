@@ -1,10 +1,8 @@
 # 🚀 Fabric End-to-End Data Project
 
 ## 📘 Overview
-This project demonstrates a complete **end-to-end data pipeline** built using **Microsoft Fabric**, starting from data ingestion in **Azure Blob Storage**, processing and transformation through **Fabric Lakehouse** and **Notebooks**, and ending with data visualization in **Power BI**.  
-The main goal of this project is to showcase a unified workflow that integrates all data engineering stages — from extraction to insight delivery.
-
----
+This project demonstrates a complete **end-to-end** data pipeline built using Microsoft Fabric, starting from data ingestion in **Azure Blob Storage**, processing and transformation through **Fabric Lakehouse** and **Notebooks**, and finally connecting the refined data to **Power BI** for potential visualization and analysis.
+The main goal of this project is to showcase a unified workflow that integrates all data engineering stages — from extraction to preparing data for visualization and insight delivery.
 
 ## 🧩 Architecture Overview
 The architecture includes the following components:
