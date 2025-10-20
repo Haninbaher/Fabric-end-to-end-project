@@ -17,7 +17,7 @@ The architecture includes the following components:
 - **Fabric Notebooks** – used for data transformation and validation.
 - **Power BI** – for creating interactive dashboards and business insights.
 
-<!-- Add image here (Architecture Diagram) -->
+![ETL Architecture](Screenshots/pipline.png)
 
 ---
 
