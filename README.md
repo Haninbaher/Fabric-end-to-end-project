@@ -101,22 +101,6 @@ The **Gold layer** holds **curated and aggregated datasets** ready for reporting
 
 ---
 
-### 7️⃣ Data Transformation with Fabric Notebooks
-- Connected **Fabric Notebooks** to the Lakehouse for data transformation and validation.
-- Performed cleaning, formatting, and schema adjustments to prepare data for visualization.
-
-<!-- Add image here (Notebook Screenshot) -->
-
----
-
-### 8️⃣ Visualization in Power BI
-- Integrated the final Lakehouse dataset with **Power BI**.
-- Created interactive **dashboards and reports** to visualize insights and KPIs.
-
-<!-- Add image here (Power BI Dashboard Screenshot) -->
-
----
-
 ## 🧠 Key Learnings
 - Hands-on experience with **Microsoft Fabric end-to-end workflows**.
 - Deep understanding of **data ingestion, transformation, and visualization** pipelines.
@@ -132,17 +116,3 @@ The **Gold layer** holds **curated and aggregated datasets** ready for reporting
 - **Fabric Notebooks**
 - **Power BI**
 - **Data Pipelines**
-
----
-
-## 📈 Project Outcome
-A fully functional data pipeline capable of ingesting, transforming, and visualizing business data in a unified environment — from raw files in Azure Blob Storage to interactive dashboards in Power BI.
-
-<!-- Add final image here (Full Workflow Summary or Dashboard Overview) -->
-
----
-
-## 🧑‍💻 Author
-**Hanin Baher**  
-Data Engineer | Microsoft Fabric & Power BI Enthusiast  
-[LinkedIn](#) • [Portfolio](#)
