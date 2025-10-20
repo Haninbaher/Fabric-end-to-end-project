@@ -87,7 +87,7 @@ The **Silver layer** contains **cleaned, validated, and standardized data**.
 - Removed duplicates, handled missing values, and standardized formats.  
 - Acts as the trusted source for analytics and Gold-level aggregation.
 
-<!-- Add image here (Silver Screenshot) -->
+![ETL Architecture](Screenshots/Silver.png)
 
 ---
 
@@ -97,7 +97,7 @@ The **Gold layer** holds **curated and aggregated datasets** ready for reporting
 - Includes summary tables and calculated fields.  
 - Optimized for performance and direct Power BI connection.
 
-<!-- Add image here (Gold Screenshot) -->
+![ETL Architecture](Screenshots/Golden.png)
 
 ---
 
